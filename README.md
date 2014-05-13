@@ -6,6 +6,7 @@ Overview of the modules:
 * APODparse searches the apod.nasa.gov page and returns the URL of the daily image as an IO (String)
 
 To use these together:
+
 	main = do
 		url <- mHTML
 		download url
